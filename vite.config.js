@@ -9,7 +9,7 @@ export default defineConfig({
 
   // This forces the initial "First Boot" scanner to use the exact same rules!
   optimizeDeps: {
-    esbuildOptions: {
+    rolldownOptions: {
       jsx: 'transform',
       jsxFactory: 'createElement',
       jsxFragment: 'Fragment',
