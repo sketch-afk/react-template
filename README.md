@@ -20,7 +20,7 @@ npm create yash-app my-app-name
 
 Alternatively, if you cloned this repo manually:
 ```
-Bash
+bash
 
 npm install
 npm run dev
@@ -32,7 +32,7 @@ npm run dev: Starts the Vite development server.
 npm run build: Bundles your app for production.
 
 ## 📂 Project Structure
-Plaintext
+text
 src/
 ├── App.jsx       # Your main component
 ├── index.css     # Global styles
@@ -55,6 +55,13 @@ Run the following command in your terminal to generate a new project:
 ```bash
 npm create yash-app <project-name>
 ```
+After running the command:
+```
+cd <project-name>
+npm install
+npm run dev
+```
+
 Replace <project-name> with the name of the folder you want to create (e.g., npm create yash-app my-portfolio).
 
 ## 🛠 What's inside?
