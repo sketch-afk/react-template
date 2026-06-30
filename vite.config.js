@@ -6,13 +6,14 @@ export default defineConfig({
     jsxFactory: 'createElement',
     jsxFragment: 'Fragment',
   },
-  
+
   // This forces the initial "First Boot" scanner to use the exact same rules!
   optimizeDeps: {
     esbuildOptions: {
       jsx: 'transform',
       jsxFactory: 'createElement',
       jsxFragment: 'Fragment',
-    }
+    },
+    exclude: ['react/jsx-dev-runtime']
   },
 });
